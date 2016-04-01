@@ -1,4 +1,4 @@
-(function($) {
+(typeof OPN === 'object') && (function($) {
 	$('.plugin-notes-container.editable, .plugin-notes-edit').on('click', function() {
 		var $container = $(this).closest('.plugin-notes-container')
 		  , $textarea = $('<textarea class="widefat">')
@@ -28,10 +28,7 @@
 		$textarea.on('keyup', adjust);
 
 		$container.html('');
-		$container.append($textarea);
-		$container.append($saveButton);
-		$container.append(' ');
-		$container.append($cancelButton);
+		$container.append($textarea, $saveButton, ' ', $cancelButton);
 
 		adjust();
 

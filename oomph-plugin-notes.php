@@ -5,7 +5,7 @@ Plugin URI: http://www.oomphinc.com/plugins-modules/oomph-plugin-notes
 Description: Add usage notes to your plugins
 Author: Ben Doherty @ Oomph, Inc.
 Version: 0.1.0
-Author URI: http://www.oomphinc.com/thinking/author/bdoherty/
+Author URI: http://www.oomphinc.com/people/bdoherty/
 License: GPLv2 or later
 
 		Copyright © 2016 Oomph, Inc. <http://oomphinc.com>
