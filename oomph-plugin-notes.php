@@ -126,8 +126,8 @@ STYLES;
 
 		$all_notes = get_option( self::OPTION_NAME );
 
-		if( empty( $current ) ) {
-			$current = array();
+		if( !is_array( $all_notes ) ) {
+			$all_notes = array();
 		}
 
 		$input = filter_input_array( INPUT_POST, array(
