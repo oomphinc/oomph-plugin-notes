@@ -1,5 +1,5 @@
 <?php
-/**
+/*
 Plugin Name: Oomph Plugin Notes
 Plugin URI: http://www.oomphinc.com/plugins-modules/oomph-plugin-notes
 Description: Add usage notes to your plugins
