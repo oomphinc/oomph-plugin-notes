@@ -1,0 +1,11 @@
+{
+    "name": "oomphinc/oomph-plugin-notes",
+    "description": "Oomph Plugin Notes - Save arbitrary notes for each of your plugins to explain usage.",
+    "authors": [
+        {
+            "name": "Ben Doherty",
+            "email": "ben@thinkoomph.com"
+        }
+    ],
+    "require": {}
+}
